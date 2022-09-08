@@ -11,6 +11,11 @@
 </head>
 
 <body>
+
+  
+<!-- formato para la cabecera de la pagina -->
+<h4>cabecera</h4>
+
   <header> <!-- cabecera de la pagina -->
     <h1> <!-- titulos que van del h1 al h6 -->
     Este sera la prueba del curso definitivo
@@ -21,6 +26,8 @@
   </header>
   <main>  <!-- cuerpo de la pagina -->
 
+  <!-- formato para realizar un formlario de campos -->
+  <h4>Formato de campos con labels y calendarios</h4>
     <form action=""> <!-- etiqueta de formulario -->
       <label for="nombre"> <!-- label es el nombre de la opcion -->
         <span>¿cual es tu nombre?</span> <!-- texto para la opcion -->
@@ -41,6 +48,8 @@
 
     <section> <!-- Por semantica del codigo se debe poner en una seccion, articulo y en el contenedor figure -->
       
+        <!-- formato para insertar imagenes y videos -->
+     <h4>Formato para insertar imagenes y videos</h4>
       <article> 
         <figure> <!-- ccontenedor para imagenes -->
           <img src="./pictures/pequeña.jpg" alt="es un lindo beagle"> <!-- etiqueta de imagenes, alt es para una descripcion de la imagen en la pagina--> 
@@ -52,6 +61,8 @@
         <!-- seccion para poner vido, controls es para poder reproducir y mover el tiempo del video, reload es para que lo cargue rapido -->
       </section>
 
+              <!-- formato para agregar listas ordenadas y desordenadas -->
+     <h4>Formato para listas ul y ol</h4>
       <article>
         <ul></ul> <!-- lista sin numeracion -->
         <ol></ol> <!-- lista con numeracion, ordenada -->
@@ -59,7 +70,38 @@
         <p></p>   <!-- Parrafos -->
         <a href="#"></a> <!-- parrafo que permite agregar vinculo URL -->
       </article>
+
       
+<!-- formato para realizar un formlario tipo select -->
+<h4>Formato select estandar</h4>
+<section>
+  <select name="Cursos" id="">
+    <option value="JavaScript">JavaScript</option>
+    <option value="HTML5">HTML5</option>
+    <option value="CSS">CSS</option>
+    <option value="Panaderia">Panaderia</option>
+  </select>
+</section>
+
+<!-- formato para realizar un formlario tipo select con buenas practicas-->
+<h4>Formato select con buenas practicas</h4>
+<section>
+<input list="cursos">
+<datalist id="cursos">
+    <option value="JavaScript"></option>
+    <option value="HTML5"></option>
+    <option value="CSS"></option>
+    <option value="Panaderia"></option>
+</datalist>
+</section>
+      
+  <!-- formato para insertar botones -->
+  <h4>Formato para botones</h4>
+  <section>
+    <input type="submit" value="nombre">  <!-- este es ideal para formulario ya envia la informacion-->
+    <button tipe="submit">¿Seguro quieres enviar?</button> <!-- este es mas flaxible y editable para lo que se necesite -->
+  </section>
+
     </section>
   </main>
   <footer> <!-- pie de pagina -->
